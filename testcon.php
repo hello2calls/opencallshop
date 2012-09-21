@@ -1,11 +1,11 @@
 <?php
-$db_user="joodcs";
-$db_pass="2565jood64";
+$db_user="root";
+$db_pass="dbpass";
 $database="voipswitch";
-$db_host="69.28.212.74";
+$db_host="localhost";
 $link = mysql_connect($db_host, $db_user,$db_pass);
 if (!$link) {
-    die('Not connected : ' . mysql_error());
+    die('OpenCallshop Not connected : ' . mysql_error());
 }
 
 // make foo the current db

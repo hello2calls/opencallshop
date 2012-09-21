@@ -1,7 +1,7 @@
 <?php
 session_start();
 print_r($_SESSION);
-$link = mysql_connect("208.87.3.132","autobackup","mdbs23x02");
+$link = mysql_connect("localhost","root","dbpass");
 if (!$link) {
     die('Not connected : ' . mysql_error());
 }
