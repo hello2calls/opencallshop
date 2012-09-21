@@ -16,8 +16,8 @@ $mail = new PHPMailer();
 $mail->IsSMTP();                                // send via SMTP
 $mail->Host     = "mail.joodtelecomgroup.com"; // SMTP servers
 $mail->SMTPAuth = true;     // turn on SMTP authentication
-$mail->Username = "team@joodtelecomgroup.com";   // SMTP username
-$mail->Password = "fidelpiero"; // SMTP password
+$mail->Username = "user@joodtelecomgroup.com";   // SMTP username
+$mail->Password = "password_smtp"; // SMTP password
 
 
 if($_POST['name']<>"" && $_POST['email']<>"" && $_POST['comments']<>""){
@@ -28,14 +28,14 @@ if($_POST['name']<>"" && $_POST['email']<>"" && $_POST['comments']<>""){
 
 	$mail->From     = $from;
 	$mail->FromName = $name ;
-	$mail->AddAddress("yati.saini@gmail.com","smrutiranjan");
-	//$mail->AddReplyTo("yati.saini@gmail.com","Your Name");
+	$mail->AddAddress("opencallshop@joodtelecomgroup.com","OpenCallshop");
+	//$mail->AddReplyTo("OpenCallshop@joodtelecomgroup.com","OpenCallshop");
 
 	$mail->WordWrap = 50;                             // set word wrap
 	 
 	$mail->IsHTML(true);                               // send as HTML
 
-	$mail->Subject  =  "Technical Support";
+	$mail->Subject  =  "OpenCallshop - Technical Support";
 	$mail->Body     =  $body;
 	//$mail->AltBody  =  "This is the text-only body";
 
