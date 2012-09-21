@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Hosted CallShop System admin section"
+AuthUserFile "C:/xampp/htdocs/JoodCallshop_dev/dev/.htpasswds"
+require valid-user
+

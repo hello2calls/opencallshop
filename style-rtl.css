@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #ffffff;
+	font-family: Tahoma, "Microsoft Sans Serif";
+	font-size: 12px;
+	color:#333333;
+}
+a:link {
+	color: #990000;
+	text-decoration: none;
+}
+a:hover {
+	color:#FFFF00;
+	text-decoration: none;
+}
+a:visited {
+	color: #990000;
+	text-decoration: none;
+}
+.style1 {
+	font-family: Tahoma, "Microsoft Sans Serif";
+	font-size: 13px;
+	font-weight: bold;
+	color:#336699;
+}
+.style4 {font-family: "Microsoft Sans Serif"; font-size: 10px; }
+.style6 {font-family: "Microsoft Sans Serif"; font-size: 12px; }
+.style8 {font-family: Tahoma, "Microsoft Sans Serif"; font-size: 12px; color: #84959E; }
+h2{
+	font-family: Arial, "Microsoft Sans Serif";
+	font-size: 16px;
+	font-weight: bold;
+	color: #666699;
+	margin-right: 25px;
+	padding-right: 40px;
+	background:url(images/history2.png) no-repeat 160px 0;
+	height: 25px;
+}
+h3{
+	font-family: Arial, "Microsoft Sans Serif";
+	font-size: 16px;
+	font-weight: bold;
+	color: #666699;
+	margin-right: 25px;
+	padding-right: 40px;
+	background:url(images/message.png) no-repeat 160px 0;
+	height: 25px;
+}
+h4{
+	font-family: Arial, "Microsoft Sans Serif";
+	font-size: 16px;
+	font-weight: bold;
+	color: #666699;
+	margin-right: 25px;
+	padding-right: 40px;
+	background:url(images/hand_money.png) no-repeat 160px 0;
+	height: 25px;
+}
+h2.d{
+	font-family: Arial, "Microsoft Sans Serif";
+	font-size: 16px;
+	font-weight: bold;
+	color: #666699;
+	margin-right: 25px;
+	padding-right: 40px;
+	background:url(images/cart.png) no-repeat 380px 0;
+	height: 25px;
+}
+h2.c{
+	font-family: Arial, "Microsoft Sans Serif";
+	font-size: 16px;
+	font-weight: bold;
+	color: #666699;
+	margin-right: 0px;
+	padding-left: 20px;
+	background:url(images/cart_remove.png) no-repeat left;
+	height: 25px;
+}
+p.topt {
+	font-family: Tahoma, Arial, "Microsoft Sans Serif";
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+}
+td.topt {
+	font-family: Tahoma, Arial, "Microsoft Sans Serif";
+	font-size: 12px;
+	font-weight: bold;
+	/*color: #666699;*/
+	color:#FFFFFF;
+	/*background: #bed3e2;*/
+	background-color:#FF0000;
+}
+td.topdata {
+	font-family: Tahoma, Arial, "Microsoft Sans Serif";
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+}
+.even_row{
+  background-color:#FFFFFF;
+  color: #000000;
+}
+.odd_row{
+  background-color:#808080;
+  color: #000000;
+}
+.form{
+	width:264px;
+	padding:0 13px 0 12px;
+}
+form label{
+	display:block;
+	width:250px;
+	font:normal 11px/18px Tahoma, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+form input.txtBox{
+	width:180px;
+	height:18px;
+	border:#84959E solid 1px;
+	background:#e2e8ec;
+	color:#788992;
+	font:bold 11px/20px Tahoma, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+form select.txtBox{
+	width:180px;
+	height:18px;
+	border:#84959E solid 1px;
+	background:#e2e8ec;
+	color:#788992;
+	font:bold 11px/20px Tahoma, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+form input.login{
+	background:#e2e8ec;
+	width:61px;
+	height:20px;
+	cursor:pointer;
+	border:#84959E solid 1px;
+	font:bold 11px/20px Tahoma, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#788992;
+	margin:8px 0 0 0;
+}
+#c_t_1 {
+	padding-right:11px;
+	padding-top:5px;
+	font-size:14px;
+	font-weight:bold;
+	color:#FF3300;
+	text-align: center;
+}
+#c_t_2 {
+	padding-left:17px;
+	padding-top:17px;
+	font-size:14px;
+	font-weight:bold;
+	color:#000099;
+}
+#c_t_3 {
+	background:url(images/money_dollar.png) no-repeat 125px 17px;
+	padding-right:25px;
+	padding-top:13px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height: 24px;
+	font-weight:bold;
+	color: #006600;
+}
+#c_t_4 {
+	padding-right:25px;
+	padding-top:14px;
+}
+#c_t_5 {
+	padding-right:32px;
+	padding-top:8px;
+}
+*:first-child+html #c_t_5 {
+	padding: 0 0 0 25px;
+}
+#no_live {
+	border: #336699 solid 1px;
+	background: url(images/disconnect.png) no-repeat 225px 5px #FFFFFF;
+	padding: 5px 25px 5px 0;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color: #990000;
+	width: 220px;
+	text-align:center;
+	margin-left:25px;
+}
+#live {
+	border: #336699 solid 1px;
+	background: no-repeat 5px 5px #FFFF99;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight: bold;
+	color: #000099;
+	width: 245px;
+	margin-left:25px;
+}
+#filter {
+	float: right;
+	width: 500px;
+	background-color: #0000FF;
+	height: 20px;
+}
+td.dailed_no {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color: #000000;
+}
+td.live_call {
+	font-family: Crystal, Arial, Helvetica, sans-serif;
+	font-size:30px;
+	font-weight:bold;
+	color: #990000;
+}
+.callbg
+{
+background:url('images/before-callbg.gif') no-repeat;
+width:299px;
+height:184px;
+}
+.activecallbg
+{
+background:url('images/after-callbg.gif') no-repeat;
+width:299px;
+height:184px;
+}
+.numbg
+{
+background:url('images/cabine-theme_01.gif') no-repeat;
+width:30px;
+height:28px;
+position:absolute;
+margin:12px 10px;
+}
+.tablebg
+{
+border-right:1px solid #bfcdde;
+border-left:1px solid #bfcdde;
+width:960px;
+float:left;
+margin-left:19px;
+}
+.left{
+text-align:right;
+}
+.right{
+float:left;
+text-align:left;
+}
+.dashboardbg{
+float:left;
+margin-right:30px;
+padding:15px 0;
+/*border:1px solid #758795;
+width:230px;
+height:150px;
+padding:10px;
+float:left;
+background-color:#DFDFDF;*/
+}
+.dashboardbg IMG{
+/*margin:40px;*/
+float:left;
+border:none;
+margin-left:20px;
+}
+.dashboardbg a{
+border:1px solid #758795;
+width:230px;
+height:150px;
+background-color:#DFDFDF;
+display:block;
+text-indent:5px;
+float:left;
+}
+.dashboardbg a:hover,.dashboardbg a.hover{
+background-color:#74ff70;
+display:block;
+float:left;
+}
+#dashboard{
+margin:10px 0 0 70px;
+float:left;
+}
+.dashboardtxt{
+text-align:left;
+float:left;
+margin:50px 0;
+}
+.warning{
+font-size:14px;
+font-weight:normal;
+background-color:yellow;
+color:#FF0000;
+padding:10px;
+width:870px;
+margin-right:19px;
+direction:rtl;
+}
+.warning IMG{
+float:right;
+}

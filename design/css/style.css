@@ -1,0 +1,113 @@
+/* CSS Document */
+body{
+margin:0 auto;
+padding:0px;
+width:100%;
+height:auto;
+text-align:center;
+font-family: Arial, Helvetica, sans-serif;
+font-size:13px; 
+font-style:normal; 
+color:#ffffff;
+background-image: url(../images/bg.jpg); background-repeat:repeat-x; 
+}
+div, p, ul, h1, h2, h3, img, span{
+padding:0;
+margin:0;
+}
+#hdr{
+padding:30px 0px 0px 0px;
+margin:0 auto;
+width:1004px;
+height:99px;
+}
+#logo{
+padding:0;
+margin:0;
+width:271px;
+height:99px;
+float:left;
+background-image: url(../images/logo.jpg); background-repeat:no-repeat;
+}
+#cl{
+padding:0;
+margin:0;flaot:left;
+width:325px; height:20px;
+background-image: url(../images/cl-list.jpg); background-repeat:no-repeat;
+}
+#nav{
+margin:0 auto;
+padding:20px 0px 0px 0px;
+float:right;
+width:733px;
+height:51px;
+float:left;
+}
+#nav_lt{
+padding:0;
+margin:0;
+float:left;
+background-image: url(../images/nav_lt.gif); background-repeat:no-repeat; width:19px; height:52px;
+}
+#nav-main{
+padding:0;
+margin:0;
+float:left;
+background-image:url(../images/nav.gif); background-repeat:repeat-x; width:695px; height:52px;
+}
+#nav_rt{
+padding:0;
+margin:0;
+float:left;
+background-image: url(../images/nav_rt.gif); background-repeat:no-repeat; width:19px; height: 52px;
+}
+#main{
+margin:0 auto;
+padding:0px;
+width:1004px;
+height:637px;
+background-image:url(../images/body.jpg); background-repeat:no-repeat;
+}
+.font{
+font-family:Tahoma, Arial;
+color:#000000;
+font-size:14px; font-style:normal;
+}
+#mn_lt{
+padding:0px;
+margin:0 auto;
+float:left;
+width:500px; height:200px;
+}
+#mn_rt{
+padding:0px;
+margin:0 auto;
+float:right;
+width:500px; height:200px;
+}
+#mn{
+padding:0px;
+margin:0 auto;
+width:442px; height: auto;
+}
+.cabin{
+padding:10px;
+margin:0 auto;
+float:left;
+background-image:url(../images/cabin.png); width:124px; height:114px; background-repeat:no-repeat;
+}
+.charge{
+padding:10px;
+margin:0 auto;
+float:left;
+background-image: url(../images/charge.png); width:124px; height:114px; background-repeat:no-repeat;
+}
+.time{
+padding:10px;
+margin:0 auto;
+float:left;
+background-image: url(../images/time.png); width:124px; height:114px; background-repeat:no-repeat;
+}
+
+
+

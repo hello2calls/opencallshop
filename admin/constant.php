@@ -1,0 +1,1 @@
+<?php  define("REFRESHTIME","5000"); ?>

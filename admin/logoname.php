@@ -1,0 +1,1 @@
+<?php  define("LOGO_NAME","logo4.gif"); ?>
