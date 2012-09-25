@@ -1,7 +1,7 @@
 <?php
 session_start();
 print_r($_SESSION);
-$link = mysql_connect("localhost","root","dbpass");
+$link = mysql_connect("localhost","root","dbpassword");
 if (!$link) {
     die('Not connected : ' . mysql_error());
 }
