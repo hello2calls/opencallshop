@@ -3,8 +3,8 @@
 // Configuration settings for My Site
 
 // Email Settings
-$site['from_name'] = 'My Name'; // from email name
-$site['from_email'] = 'yati.saini@gmail.com'; // from email address
+$site['from_name'] = 'OpenCallshop'; // from email name
+$site['from_email'] = 'ssw@joodtelecomgroup.com'; // from email address
  
 // Just in case we need to relay to a different server,
 // provide an option to use external mail server.
