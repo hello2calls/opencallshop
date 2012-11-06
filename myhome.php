@@ -92,7 +92,7 @@ if (count ($_POST) > 0 && $_POST['sum'] >0)
 	}
 }
 
-/*$te_live = "select * from callshopusers cs left join clientse164 cl on cs.id_client=cl.id_client
+/*$te_live = "select * from callshopusers cs left join clientsshared cl on cs.id_client=cl.id_client
 left join callshopcurrentcalls_list c cl.login=c.ani where cs.id_callshop='".$_SESSION['id_callshop']."'";
 */
 $update='<script type="text/javascript">
