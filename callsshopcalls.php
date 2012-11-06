@@ -1,4 +1,3 @@
-
 <table border="0" cellspacing="0" cellpadding="0" class="tablebg">
       <tr>        
         <td width="100%" bgcolor="#FFFFFF"><table width="100%" border="0" cellspacing="0" cellpadding="10">
@@ -26,7 +25,7 @@ $round = 1;
 
 while ( $data_for_sql2 = mysql_fetch_array($result_for_sql2, MYSQL_ASSOC)) {
 
-	$sql2 = "select * from clientse164 where id_client=".$data_for_sql2["id_client"]."";
+	$sql2 = "select * from clientsshared where id_client=".$data_for_sql2["id_client"]."";
 	//$result_new = mysql_query($sql2, $con);
 	$result_new = execute($sql2, 1);
 	
